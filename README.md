@@ -82,8 +82,7 @@ pip install -r requirements.txt
 python src/build_tsif_graph.py
 python src/compute_footprints.py
 python src/centrality_metrics.py
-python src/export_graph.py
-```
+python src/export_graph.py```
 
 ---
 
