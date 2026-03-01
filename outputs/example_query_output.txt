@@ -1,0 +1,16 @@
+TSIF Demo Query Output
+============================================================
+
+Time-travel query: Rothschild @ 1810
+------------------------------------------------------------
+{'person': 'Mayer Amschel Rothschild', 'year': 1810, 'places': ['Frankfurt'], 'institutions': ['House of Rothschild'], 'domains': ['Finance']}
+{'person': 'Amschel Mayer Rothschild', 'year': 1810, 'places': ['Frankfurt'], 'institutions': ['House of Rothschild (Frankfurt branch)'], 'domains': ['Finance']}
+{'person': 'Salomon Mayer Rothschild', 'year': 1810, 'places': ['Vienna'], 'institutions': ['House of Rothschild (Vienna branch)'], 'domains': ['Finance']}
+{'person': 'Nathan Mayer Rothschild', 'year': 1810, 'places': ['London'], 'institutions': ['House of Rothschild (London branch)'], 'domains': ['Finance']}
+{'person': 'Carl Mayer Rothschild', 'year': 1810, 'places': ['Naples'], 'institutions': ['House of Rothschild (Naples branch)'], 'domains': ['Finance']}
+{'person': 'James Mayer Rothschild', 'year': 1810, 'places': ['Paris'], 'institutions': ['House of Rothschild (Paris branch)'], 'domains': ['Finance']}
+
+Time-travel query: Guinness @ 1790
+------------------------------------------------------------
+{'person': 'Arthur Guinness', 'year': 1790, 'places': ['Dublin'], 'institutions': ['Guinness Brewery'], 'domains': ['Brewing']}
+{'person': 'Guinness Successor (demo)', 'year': 1790, 'places': ['Dublin', 'London'], 'institutions': ['Guinness Brewery'], 'domains': ['Brewing', 'Politics', 'Philanthropy']}

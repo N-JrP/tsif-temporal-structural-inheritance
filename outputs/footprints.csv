@@ -1,0 +1,5 @@
+dynasty_id,generation,people_count,places_count,institutions_count,domains_count,reach_2hop_count,delta_places_count,delta_institutions_count,delta_domains_count,delta_reach_2hop_count
+guinness,1,1,1,1,1,11,,,,
+guinness,2,1,2,1,3,9,1.0,0.0,2.0,-2.0
+rothschild,1,1,1,1,1,22,,,,
+rothschild,2,5,5,5,1,15,4.0,4.0,0.0,-7.0

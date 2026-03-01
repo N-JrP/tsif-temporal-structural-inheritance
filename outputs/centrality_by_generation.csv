@@ -1,0 +1,5 @@
+dynasty_id,generation,people_count,avg_degree_centrality,avg_betweenness_centrality,top_person_by_betweenness,top_person_by_betweenness_name
+rothschild,1,1,0.33333333333333337,0.2492424242424243,p_ma,Mayer Amschel Rothschild
+rothschild,2,5,0.22424242424242427,0.2015151515151515,p_3,Nathan Mayer Rothschild
+guinness,1,1,0.21212121212121213,0.07007575757575758,g_arthur,Arthur Guinness
+guinness,2,1,0.30303030303030304,0.49053030303030304,g_2,Guinness Successor (demo)

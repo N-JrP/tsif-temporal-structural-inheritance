@@ -1,0 +1,144 @@
+{
+  "dynasties": [
+    {
+      "dynasty_id": "rothschild",
+      "dynasty_name": "Rothschild (demo)",
+      "origin_place": "Frankfurt",
+      "events": [
+        {
+          "event_id": "e_napoleonic_wars",
+          "name": "Napoleonic Wars",
+          "start_year": 1803,
+          "end_year": 1815
+        },
+        {
+          "event_id": "e_congress_vienna",
+          "name": "Congress of Vienna",
+          "start_year": 1814,
+          "end_year": 1815
+        }
+      ],
+      "people": [
+        {
+          "person_id": "p_ma",
+          "name": "Mayer Amschel Rothschild",
+          "birth_year": 1744,
+          "death_year": 1812,
+          "generation": 1,
+          "places": ["Frankfurt"],
+          "institutions": ["House of Rothschild"],
+          "domains": ["Finance"],
+          "event_context": ["e_napoleonic_wars"],
+          "relations": [
+            { "type": "PARENT_OF", "target": "p_1" },
+            { "type": "PARENT_OF", "target": "p_2" },
+            { "type": "PARENT_OF", "target": "p_3" },
+            { "type": "PARENT_OF", "target": "p_4" },
+            { "type": "PARENT_OF", "target": "p_5" }
+          ]
+        },
+        {
+          "person_id": "p_1",
+          "name": "Amschel Mayer Rothschild",
+          "birth_year": 1773,
+          "death_year": 1855,
+          "generation": 2,
+          "places": ["Frankfurt"],
+          "institutions": ["House of Rothschild (Frankfurt branch)"],
+          "domains": ["Finance"],
+          "event_context": ["e_napoleonic_wars", "e_congress_vienna"],
+          "relations": []
+        },
+        {
+          "person_id": "p_2",
+          "name": "Salomon Mayer Rothschild",
+          "birth_year": 1774,
+          "death_year": 1855,
+          "generation": 2,
+          "places": ["Vienna"],
+          "institutions": ["House of Rothschild (Vienna branch)"],
+          "domains": ["Finance"],
+          "event_context": ["e_napoleonic_wars", "e_congress_vienna"],
+          "relations": []
+        },
+        {
+          "person_id": "p_3",
+          "name": "Nathan Mayer Rothschild",
+          "birth_year": 1777,
+          "death_year": 1836,
+          "generation": 2,
+          "places": ["London"],
+          "institutions": ["House of Rothschild (London branch)"],
+          "domains": ["Finance"],
+          "event_context": ["e_napoleonic_wars"],
+          "relations": []
+        },
+        {
+          "person_id": "p_4",
+          "name": "Carl Mayer Rothschild",
+          "birth_year": 1788,
+          "death_year": 1855,
+          "generation": 2,
+          "places": ["Naples"],
+          "institutions": ["House of Rothschild (Naples branch)"],
+          "domains": ["Finance"],
+          "event_context": ["e_napoleonic_wars"],
+          "relations": []
+        },
+        {
+          "person_id": "p_5",
+          "name": "James Mayer Rothschild",
+          "birth_year": 1792,
+          "death_year": 1868,
+          "generation": 2,
+          "places": ["Paris"],
+          "institutions": ["House of Rothschild (Paris branch)"],
+          "domains": ["Finance"],
+          "event_context": ["e_napoleonic_wars"],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "dynasty_id": "guinness",
+      "dynasty_name": "Guinness (demo)",
+      "origin_place": "Dublin",
+      "events": [
+        {
+          "event_id": "e_industrial_rev",
+          "name": "Industrial Revolution (context)",
+          "start_year": 1760,
+          "end_year": 1840
+        }
+      ],
+      "people": [
+        {
+          "person_id": "g_arthur",
+          "name": "Arthur Guinness",
+          "birth_year": 1725,
+          "death_year": 1803,
+          "generation": 1,
+          "places": ["Dublin"],
+          "institutions": ["Guinness Brewery"],
+          "domains": ["Brewing"],
+          "event_context": ["e_industrial_rev"],
+          "relations": [
+            { "type": "PARENT_OF", "target": "g_2" }
+          ]
+        },
+        {
+          "person_id": "g_2",
+          "name": "Guinness Successor (demo)",
+          "birth_year": 1768,
+          "death_year": 1840,
+          "generation": 2,
+          "places": ["Dublin", "London"],
+          "institutions": ["Guinness Brewery"],
+          "domains": ["Brewing", "Politics", "Philanthropy"],
+          "event_context": ["e_industrial_rev"],
+          "relations": []
+        }
+      ]
+    }
+  ]
+}

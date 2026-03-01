@@ -1,0 +1,585 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {
+    "model": "TSIF"
+  },
+  "nodes": [
+    {
+      "node_type": "Dynasty",
+      "label": "Rothschild (demo)",
+      "origin_place": "Frankfurt",
+      "id": "dyn::rothschild"
+    },
+    {
+      "node_type": "Event",
+      "dynasty_id": "rothschild",
+      "event_id": "e_napoleonic_wars",
+      "label": "Napoleonic Wars",
+      "start_year": 1803,
+      "end_year": 1815,
+      "id": "event::rothschild::e_napoleonic_wars"
+    },
+    {
+      "node_type": "Event",
+      "dynasty_id": "rothschild",
+      "event_id": "e_congress_vienna",
+      "label": "Congress of Vienna",
+      "start_year": 1814,
+      "end_year": 1815,
+      "id": "event::rothschild::e_congress_vienna"
+    },
+    {
+      "node_type": "Person",
+      "dynasty_id": "rothschild",
+      "name": "Mayer Amschel Rothschild",
+      "birth_year": 1744,
+      "death_year": 1812,
+      "generation": 1,
+      "id": "p_ma"
+    },
+    {
+      "node_type": "Place",
+      "label": "Frankfurt",
+      "id": "place::Frankfurt"
+    },
+    {
+      "node_type": "Institution",
+      "label": "House of Rothschild",
+      "id": "inst::House of Rothschild"
+    },
+    {
+      "node_type": "Domain",
+      "label": "Finance",
+      "id": "dom::Finance"
+    },
+    {
+      "node_type": "Generation",
+      "dynasty_id": "rothschild",
+      "generation": 1,
+      "id": "gen::rothschild::1"
+    },
+    {
+      "node_type": "Person",
+      "dynasty_id": "rothschild",
+      "name": "Amschel Mayer Rothschild",
+      "birth_year": 1773,
+      "death_year": 1855,
+      "generation": 2,
+      "id": "p_1"
+    },
+    {
+      "node_type": "Institution",
+      "label": "House of Rothschild (Frankfurt branch)",
+      "id": "inst::House of Rothschild (Frankfurt branch)"
+    },
+    {
+      "node_type": "Generation",
+      "dynasty_id": "rothschild",
+      "generation": 2,
+      "id": "gen::rothschild::2"
+    },
+    {
+      "node_type": "Person",
+      "dynasty_id": "rothschild",
+      "name": "Salomon Mayer Rothschild",
+      "birth_year": 1774,
+      "death_year": 1855,
+      "generation": 2,
+      "id": "p_2"
+    },
+    {
+      "node_type": "Place",
+      "label": "Vienna",
+      "id": "place::Vienna"
+    },
+    {
+      "node_type": "Institution",
+      "label": "House of Rothschild (Vienna branch)",
+      "id": "inst::House of Rothschild (Vienna branch)"
+    },
+    {
+      "node_type": "Person",
+      "dynasty_id": "rothschild",
+      "name": "Nathan Mayer Rothschild",
+      "birth_year": 1777,
+      "death_year": 1836,
+      "generation": 2,
+      "id": "p_3"
+    },
+    {
+      "node_type": "Place",
+      "label": "London",
+      "id": "place::London"
+    },
+    {
+      "node_type": "Institution",
+      "label": "House of Rothschild (London branch)",
+      "id": "inst::House of Rothschild (London branch)"
+    },
+    {
+      "node_type": "Person",
+      "dynasty_id": "rothschild",
+      "name": "Carl Mayer Rothschild",
+      "birth_year": 1788,
+      "death_year": 1855,
+      "generation": 2,
+      "id": "p_4"
+    },
+    {
+      "node_type": "Place",
+      "label": "Naples",
+      "id": "place::Naples"
+    },
+    {
+      "node_type": "Institution",
+      "label": "House of Rothschild (Naples branch)",
+      "id": "inst::House of Rothschild (Naples branch)"
+    },
+    {
+      "node_type": "Person",
+      "dynasty_id": "rothschild",
+      "name": "James Mayer Rothschild",
+      "birth_year": 1792,
+      "death_year": 1868,
+      "generation": 2,
+      "id": "p_5"
+    },
+    {
+      "node_type": "Place",
+      "label": "Paris",
+      "id": "place::Paris"
+    },
+    {
+      "node_type": "Institution",
+      "label": "House of Rothschild (Paris branch)",
+      "id": "inst::House of Rothschild (Paris branch)"
+    },
+    {
+      "node_type": "Dynasty",
+      "label": "Guinness (demo)",
+      "origin_place": "Dublin",
+      "id": "dyn::guinness"
+    },
+    {
+      "node_type": "Event",
+      "dynasty_id": "guinness",
+      "event_id": "e_industrial_rev",
+      "label": "Industrial Revolution (context)",
+      "start_year": 1760,
+      "end_year": 1840,
+      "id": "event::guinness::e_industrial_rev"
+    },
+    {
+      "node_type": "Person",
+      "dynasty_id": "guinness",
+      "name": "Arthur Guinness",
+      "birth_year": 1725,
+      "death_year": 1803,
+      "generation": 1,
+      "id": "g_arthur"
+    },
+    {
+      "node_type": "Place",
+      "label": "Dublin",
+      "id": "place::Dublin"
+    },
+    {
+      "node_type": "Institution",
+      "label": "Guinness Brewery",
+      "id": "inst::Guinness Brewery"
+    },
+    {
+      "node_type": "Domain",
+      "label": "Brewing",
+      "id": "dom::Brewing"
+    },
+    {
+      "node_type": "Generation",
+      "dynasty_id": "guinness",
+      "generation": 1,
+      "id": "gen::guinness::1"
+    },
+    {
+      "node_type": "Person",
+      "dynasty_id": "guinness",
+      "name": "Guinness Successor (demo)",
+      "birth_year": 1768,
+      "death_year": 1840,
+      "generation": 2,
+      "id": "g_2"
+    },
+    {
+      "node_type": "Domain",
+      "label": "Politics",
+      "id": "dom::Politics"
+    },
+    {
+      "node_type": "Domain",
+      "label": "Philanthropy",
+      "id": "dom::Philanthropy"
+    },
+    {
+      "node_type": "Generation",
+      "dynasty_id": "guinness",
+      "generation": 2,
+      "id": "gen::guinness::2"
+    }
+  ],
+  "links": [
+    {
+      "rel_type": "EMBEDDED_IN",
+      "source": "p_ma",
+      "target": "place::Frankfurt",
+      "key": "EMBEDDED_IN"
+    },
+    {
+      "rel_type": "AFFILIATED_WITH",
+      "source": "p_ma",
+      "target": "inst::House of Rothschild",
+      "key": "AFFILIATED_WITH"
+    },
+    {
+      "rel_type": "ACTIVE_IN",
+      "source": "p_ma",
+      "target": "dom::Finance",
+      "key": "ACTIVE_IN"
+    },
+    {
+      "rel_type": "BELONGS_TO_GENERATION",
+      "source": "p_ma",
+      "target": "gen::rothschild::1",
+      "key": "BELONGS_TO_GENERATION"
+    },
+    {
+      "rel_type": "CONTEXTUALIZED_BY",
+      "source": "p_ma",
+      "target": "event::rothschild::e_napoleonic_wars",
+      "key": "CONTEXTUALIZED_BY"
+    },
+    {
+      "rel_type": "MEMBER_OF",
+      "source": "p_ma",
+      "target": "dyn::rothschild",
+      "key": "MEMBER_OF"
+    },
+    {
+      "rel_type": "PARENT_OF",
+      "source": "p_ma",
+      "target": "p_1",
+      "key": "PARENT_OF"
+    },
+    {
+      "rel_type": "PARENT_OF",
+      "source": "p_ma",
+      "target": "p_2",
+      "key": "PARENT_OF"
+    },
+    {
+      "rel_type": "PARENT_OF",
+      "source": "p_ma",
+      "target": "p_3",
+      "key": "PARENT_OF"
+    },
+    {
+      "rel_type": "PARENT_OF",
+      "source": "p_ma",
+      "target": "p_4",
+      "key": "PARENT_OF"
+    },
+    {
+      "rel_type": "PARENT_OF",
+      "source": "p_ma",
+      "target": "p_5",
+      "key": "PARENT_OF"
+    },
+    {
+      "rel_type": "EMBEDDED_IN",
+      "source": "p_1",
+      "target": "place::Frankfurt",
+      "key": "EMBEDDED_IN"
+    },
+    {
+      "rel_type": "AFFILIATED_WITH",
+      "source": "p_1",
+      "target": "inst::House of Rothschild (Frankfurt branch)",
+      "key": "AFFILIATED_WITH"
+    },
+    {
+      "rel_type": "ACTIVE_IN",
+      "source": "p_1",
+      "target": "dom::Finance",
+      "key": "ACTIVE_IN"
+    },
+    {
+      "rel_type": "BELONGS_TO_GENERATION",
+      "source": "p_1",
+      "target": "gen::rothschild::2",
+      "key": "BELONGS_TO_GENERATION"
+    },
+    {
+      "rel_type": "CONTEXTUALIZED_BY",
+      "source": "p_1",
+      "target": "event::rothschild::e_napoleonic_wars",
+      "key": "CONTEXTUALIZED_BY"
+    },
+    {
+      "rel_type": "CONTEXTUALIZED_BY",
+      "source": "p_1",
+      "target": "event::rothschild::e_congress_vienna",
+      "key": "CONTEXTUALIZED_BY"
+    },
+    {
+      "rel_type": "MEMBER_OF",
+      "source": "p_1",
+      "target": "dyn::rothschild",
+      "key": "MEMBER_OF"
+    },
+    {
+      "rel_type": "EMBEDDED_IN",
+      "source": "p_2",
+      "target": "place::Vienna",
+      "key": "EMBEDDED_IN"
+    },
+    {
+      "rel_type": "AFFILIATED_WITH",
+      "source": "p_2",
+      "target": "inst::House of Rothschild (Vienna branch)",
+      "key": "AFFILIATED_WITH"
+    },
+    {
+      "rel_type": "ACTIVE_IN",
+      "source": "p_2",
+      "target": "dom::Finance",
+      "key": "ACTIVE_IN"
+    },
+    {
+      "rel_type": "BELONGS_TO_GENERATION",
+      "source": "p_2",
+      "target": "gen::rothschild::2",
+      "key": "BELONGS_TO_GENERATION"
+    },
+    {
+      "rel_type": "CONTEXTUALIZED_BY",
+      "source": "p_2",
+      "target": "event::rothschild::e_napoleonic_wars",
+      "key": "CONTEXTUALIZED_BY"
+    },
+    {
+      "rel_type": "CONTEXTUALIZED_BY",
+      "source": "p_2",
+      "target": "event::rothschild::e_congress_vienna",
+      "key": "CONTEXTUALIZED_BY"
+    },
+    {
+      "rel_type": "MEMBER_OF",
+      "source": "p_2",
+      "target": "dyn::rothschild",
+      "key": "MEMBER_OF"
+    },
+    {
+      "rel_type": "EMBEDDED_IN",
+      "source": "p_3",
+      "target": "place::London",
+      "key": "EMBEDDED_IN"
+    },
+    {
+      "rel_type": "AFFILIATED_WITH",
+      "source": "p_3",
+      "target": "inst::House of Rothschild (London branch)",
+      "key": "AFFILIATED_WITH"
+    },
+    {
+      "rel_type": "ACTIVE_IN",
+      "source": "p_3",
+      "target": "dom::Finance",
+      "key": "ACTIVE_IN"
+    },
+    {
+      "rel_type": "BELONGS_TO_GENERATION",
+      "source": "p_3",
+      "target": "gen::rothschild::2",
+      "key": "BELONGS_TO_GENERATION"
+    },
+    {
+      "rel_type": "CONTEXTUALIZED_BY",
+      "source": "p_3",
+      "target": "event::rothschild::e_napoleonic_wars",
+      "key": "CONTEXTUALIZED_BY"
+    },
+    {
+      "rel_type": "MEMBER_OF",
+      "source": "p_3",
+      "target": "dyn::rothschild",
+      "key": "MEMBER_OF"
+    },
+    {
+      "rel_type": "EMBEDDED_IN",
+      "source": "p_4",
+      "target": "place::Naples",
+      "key": "EMBEDDED_IN"
+    },
+    {
+      "rel_type": "AFFILIATED_WITH",
+      "source": "p_4",
+      "target": "inst::House of Rothschild (Naples branch)",
+      "key": "AFFILIATED_WITH"
+    },
+    {
+      "rel_type": "ACTIVE_IN",
+      "source": "p_4",
+      "target": "dom::Finance",
+      "key": "ACTIVE_IN"
+    },
+    {
+      "rel_type": "BELONGS_TO_GENERATION",
+      "source": "p_4",
+      "target": "gen::rothschild::2",
+      "key": "BELONGS_TO_GENERATION"
+    },
+    {
+      "rel_type": "CONTEXTUALIZED_BY",
+      "source": "p_4",
+      "target": "event::rothschild::e_napoleonic_wars",
+      "key": "CONTEXTUALIZED_BY"
+    },
+    {
+      "rel_type": "MEMBER_OF",
+      "source": "p_4",
+      "target": "dyn::rothschild",
+      "key": "MEMBER_OF"
+    },
+    {
+      "rel_type": "EMBEDDED_IN",
+      "source": "p_5",
+      "target": "place::Paris",
+      "key": "EMBEDDED_IN"
+    },
+    {
+      "rel_type": "AFFILIATED_WITH",
+      "source": "p_5",
+      "target": "inst::House of Rothschild (Paris branch)",
+      "key": "AFFILIATED_WITH"
+    },
+    {
+      "rel_type": "ACTIVE_IN",
+      "source": "p_5",
+      "target": "dom::Finance",
+      "key": "ACTIVE_IN"
+    },
+    {
+      "rel_type": "BELONGS_TO_GENERATION",
+      "source": "p_5",
+      "target": "gen::rothschild::2",
+      "key": "BELONGS_TO_GENERATION"
+    },
+    {
+      "rel_type": "CONTEXTUALIZED_BY",
+      "source": "p_5",
+      "target": "event::rothschild::e_napoleonic_wars",
+      "key": "CONTEXTUALIZED_BY"
+    },
+    {
+      "rel_type": "MEMBER_OF",
+      "source": "p_5",
+      "target": "dyn::rothschild",
+      "key": "MEMBER_OF"
+    },
+    {
+      "rel_type": "EMBEDDED_IN",
+      "source": "g_arthur",
+      "target": "place::Dublin",
+      "key": "EMBEDDED_IN"
+    },
+    {
+      "rel_type": "AFFILIATED_WITH",
+      "source": "g_arthur",
+      "target": "inst::Guinness Brewery",
+      "key": "AFFILIATED_WITH"
+    },
+    {
+      "rel_type": "ACTIVE_IN",
+      "source": "g_arthur",
+      "target": "dom::Brewing",
+      "key": "ACTIVE_IN"
+    },
+    {
+      "rel_type": "BELONGS_TO_GENERATION",
+      "source": "g_arthur",
+      "target": "gen::guinness::1",
+      "key": "BELONGS_TO_GENERATION"
+    },
+    {
+      "rel_type": "CONTEXTUALIZED_BY",
+      "source": "g_arthur",
+      "target": "event::guinness::e_industrial_rev",
+      "key": "CONTEXTUALIZED_BY"
+    },
+    {
+      "rel_type": "MEMBER_OF",
+      "source": "g_arthur",
+      "target": "dyn::guinness",
+      "key": "MEMBER_OF"
+    },
+    {
+      "rel_type": "PARENT_OF",
+      "source": "g_arthur",
+      "target": "g_2",
+      "key": "PARENT_OF"
+    },
+    {
+      "rel_type": "EMBEDDED_IN",
+      "source": "g_2",
+      "target": "place::Dublin",
+      "key": "EMBEDDED_IN"
+    },
+    {
+      "rel_type": "EMBEDDED_IN",
+      "source": "g_2",
+      "target": "place::London",
+      "key": "EMBEDDED_IN"
+    },
+    {
+      "rel_type": "AFFILIATED_WITH",
+      "source": "g_2",
+      "target": "inst::Guinness Brewery",
+      "key": "AFFILIATED_WITH"
+    },
+    {
+      "rel_type": "ACTIVE_IN",
+      "source": "g_2",
+      "target": "dom::Brewing",
+      "key": "ACTIVE_IN"
+    },
+    {
+      "rel_type": "ACTIVE_IN",
+      "source": "g_2",
+      "target": "dom::Politics",
+      "key": "ACTIVE_IN"
+    },
+    {
+      "rel_type": "ACTIVE_IN",
+      "source": "g_2",
+      "target": "dom::Philanthropy",
+      "key": "ACTIVE_IN"
+    },
+    {
+      "rel_type": "BELONGS_TO_GENERATION",
+      "source": "g_2",
+      "target": "gen::guinness::2",
+      "key": "BELONGS_TO_GENERATION"
+    },
+    {
+      "rel_type": "CONTEXTUALIZED_BY",
+      "source": "g_2",
+      "target": "event::guinness::e_industrial_rev",
+      "key": "CONTEXTUALIZED_BY"
+    },
+    {
+      "rel_type": "MEMBER_OF",
+      "source": "g_2",
+      "target": "dyn::guinness",
+      "key": "MEMBER_OF"
+    }
+  ]
+}

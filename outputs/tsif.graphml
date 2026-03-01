@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d12" for="edge" attr.name="rel_type" attr.type="string"/>
+<key id="d11" for="node" attr.name="generation" attr.type="long"/>
+<key id="d10" for="node" attr.name="death_year" attr.type="long"/>
+<key id="d9" for="node" attr.name="birth_year" attr.type="long"/>
+<key id="d8" for="node" attr.name="name" attr.type="string"/>
+<key id="d7" for="node" attr.name="end_year" attr.type="long"/>
+<key id="d6" for="node" attr.name="start_year" attr.type="long"/>
+<key id="d5" for="node" attr.name="event_id" attr.type="string"/>
+<key id="d4" for="node" attr.name="dynasty_id" attr.type="string"/>
+<key id="d3" for="node" attr.name="origin_place" attr.type="string"/>
+<key id="d2" for="node" attr.name="label" attr.type="string"/>
+<key id="d1" for="node" attr.name="node_type" attr.type="string"/>
+<key id="d0" for="graph" attr.name="model" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">TSIF</data>
+<node id="dyn::rothschild">
+  <data key="d1">Dynasty</data>
+  <data key="d2">Rothschild (demo)</data>
+  <data key="d3">Frankfurt</data>
+</node>
+<node id="event::rothschild::e_napoleonic_wars">
+  <data key="d1">Event</data>
+  <data key="d4">rothschild</data>
+  <data key="d5">e_napoleonic_wars</data>
+  <data key="d2">Napoleonic Wars</data>
+  <data key="d6">1803</data>
+  <data key="d7">1815</data>
+</node>
+<node id="event::rothschild::e_congress_vienna">
+  <data key="d1">Event</data>
+  <data key="d4">rothschild</data>
+  <data key="d5">e_congress_vienna</data>
+  <data key="d2">Congress of Vienna</data>
+  <data key="d6">1814</data>
+  <data key="d7">1815</data>
+</node>
+<node id="p_ma">
+  <data key="d1">Person</data>
+  <data key="d4">rothschild</data>
+  <data key="d8">Mayer Amschel Rothschild</data>
+  <data key="d9">1744</data>
+  <data key="d10">1812</data>
+  <data key="d11">1</data>
+</node>
+<node id="place::Frankfurt">
+  <data key="d1">Place</data>
+  <data key="d2">Frankfurt</data>
+</node>
+<node id="inst::House of Rothschild">
+  <data key="d1">Institution</data>
+  <data key="d2">House of Rothschild</data>
+</node>
+<node id="dom::Finance">
+  <data key="d1">Domain</data>
+  <data key="d2">Finance</data>
+</node>
+<node id="gen::rothschild::1">
+  <data key="d1">Generation</data>
+  <data key="d4">rothschild</data>
+  <data key="d11">1</data>
+</node>
+<node id="p_1">
+  <data key="d1">Person</data>
+  <data key="d4">rothschild</data>
+  <data key="d8">Amschel Mayer Rothschild</data>
+  <data key="d9">1773</data>
+  <data key="d10">1855</data>
+  <data key="d11">2</data>
+</node>
+<node id="inst::House of Rothschild (Frankfurt branch)">
+  <data key="d1">Institution</data>
+  <data key="d2">House of Rothschild (Frankfurt branch)</data>
+</node>
+<node id="gen::rothschild::2">
+  <data key="d1">Generation</data>
+  <data key="d4">rothschild</data>
+  <data key="d11">2</data>
+</node>
+<node id="p_2">
+  <data key="d1">Person</data>
+  <data key="d4">rothschild</data>
+  <data key="d8">Salomon Mayer Rothschild</data>
+  <data key="d9">1774</data>
+  <data key="d10">1855</data>
+  <data key="d11">2</data>
+</node>
+<node id="place::Vienna">
+  <data key="d1">Place</data>
+  <data key="d2">Vienna</data>
+</node>
+<node id="inst::House of Rothschild (Vienna branch)">
+  <data key="d1">Institution</data>
+  <data key="d2">House of Rothschild (Vienna branch)</data>
+</node>
+<node id="p_3">
+  <data key="d1">Person</data>
+  <data key="d4">rothschild</data>
+  <data key="d8">Nathan Mayer Rothschild</data>
+  <data key="d9">1777</data>
+  <data key="d10">1836</data>
+  <data key="d11">2</data>
+</node>
+<node id="place::London">
+  <data key="d1">Place</data>
+  <data key="d2">London</data>
+</node>
+<node id="inst::House of Rothschild (London branch)">
+  <data key="d1">Institution</data>
+  <data key="d2">House of Rothschild (London branch)</data>
+</node>
+<node id="p_4">
+  <data key="d1">Person</data>
+  <data key="d4">rothschild</data>
+  <data key="d8">Carl Mayer Rothschild</data>
+  <data key="d9">1788</data>
+  <data key="d10">1855</data>
+  <data key="d11">2</data>
+</node>
+<node id="place::Naples">
+  <data key="d1">Place</data>
+  <data key="d2">Naples</data>
+</node>
+<node id="inst::House of Rothschild (Naples branch)">
+  <data key="d1">Institution</data>
+  <data key="d2">House of Rothschild (Naples branch)</data>
+</node>
+<node id="p_5">
+  <data key="d1">Person</data>
+  <data key="d4">rothschild</data>
+  <data key="d8">James Mayer Rothschild</data>
+  <data key="d9">1792</data>
+  <data key="d10">1868</data>
+  <data key="d11">2</data>
+</node>
+<node id="place::Paris">
+  <data key="d1">Place</data>
+  <data key="d2">Paris</data>
+</node>
+<node id="inst::House of Rothschild (Paris branch)">
+  <data key="d1">Institution</data>
+  <data key="d2">House of Rothschild (Paris branch)</data>
+</node>
+<node id="dyn::guinness">
+  <data key="d1">Dynasty</data>
+  <data key="d2">Guinness (demo)</data>
+  <data key="d3">Dublin</data>
+</node>
+<node id="event::guinness::e_industrial_rev">
+  <data key="d1">Event</data>
+  <data key="d4">guinness</data>
+  <data key="d5">e_industrial_rev</data>
+  <data key="d2">Industrial Revolution (context)</data>
+  <data key="d6">1760</data>
+  <data key="d7">1840</data>
+</node>
+<node id="g_arthur">
+  <data key="d1">Person</data>
+  <data key="d4">guinness</data>
+  <data key="d8">Arthur Guinness</data>
+  <data key="d9">1725</data>
+  <data key="d10">1803</data>
+  <data key="d11">1</data>
+</node>
+<node id="place::Dublin">
+  <data key="d1">Place</data>
+  <data key="d2">Dublin</data>
+</node>
+<node id="inst::Guinness Brewery">
+  <data key="d1">Institution</data>
+  <data key="d2">Guinness Brewery</data>
+</node>
+<node id="dom::Brewing">
+  <data key="d1">Domain</data>
+  <data key="d2">Brewing</data>
+</node>
+<node id="gen::guinness::1">
+  <data key="d1">Generation</data>
+  <data key="d4">guinness</data>
+  <data key="d11">1</data>
+</node>
+<node id="g_2">
+  <data key="d1">Person</data>
+  <data key="d4">guinness</data>
+  <data key="d8">Guinness Successor (demo)</data>
+  <data key="d9">1768</data>
+  <data key="d10">1840</data>
+  <data key="d11">2</data>
+</node>
+<node id="dom::Politics">
+  <data key="d1">Domain</data>
+  <data key="d2">Politics</data>
+</node>
+<node id="dom::Philanthropy">
+  <data key="d1">Domain</data>
+  <data key="d2">Philanthropy</data>
+</node>
+<node id="gen::guinness::2">
+  <data key="d1">Generation</data>
+  <data key="d4">guinness</data>
+  <data key="d11">2</data>
+</node>
+<edge source="p_ma" target="place::Frankfurt" id="EMBEDDED_IN">
+  <data key="d12">EMBEDDED_IN</data>
+</edge>
+<edge source="p_ma" target="inst::House of Rothschild" id="AFFILIATED_WITH">
+  <data key="d12">AFFILIATED_WITH</data>
+</edge>
+<edge source="p_ma" target="dom::Finance" id="ACTIVE_IN">
+  <data key="d12">ACTIVE_IN</data>
+</edge>
+<edge source="p_ma" target="gen::rothschild::1" id="BELONGS_TO_GENERATION">
+  <data key="d12">BELONGS_TO_GENERATION</data>
+</edge>
+<edge source="p_ma" target="event::rothschild::e_napoleonic_wars" id="CONTEXTUALIZED_BY">
+  <data key="d12">CONTEXTUALIZED_BY</data>
+</edge>
+<edge source="p_ma" target="dyn::rothschild" id="MEMBER_OF">
+  <data key="d12">MEMBER_OF</data>
+</edge>
+<edge source="p_ma" target="p_1" id="PARENT_OF">
+  <data key="d12">PARENT_OF</data>
+</edge>
+<edge source="p_ma" target="p_2" id="PARENT_OF">
+  <data key="d12">PARENT_OF</data>
+</edge>
+<edge source="p_ma" target="p_3" id="PARENT_OF">
+  <data key="d12">PARENT_OF</data>
+</edge>
+<edge source="p_ma" target="p_4" id="PARENT_OF">
+  <data key="d12">PARENT_OF</data>
+</edge>
+<edge source="p_ma" target="p_5" id="PARENT_OF">
+  <data key="d12">PARENT_OF</data>
+</edge>
+<edge source="p_1" target="place::Frankfurt" id="EMBEDDED_IN">
+  <data key="d12">EMBEDDED_IN</data>
+</edge>
+<edge source="p_1" target="inst::House of Rothschild (Frankfurt branch)" id="AFFILIATED_WITH">
+  <data key="d12">AFFILIATED_WITH</data>
+</edge>
+<edge source="p_1" target="dom::Finance" id="ACTIVE_IN">
+  <data key="d12">ACTIVE_IN</data>
+</edge>
+<edge source="p_1" target="gen::rothschild::2" id="BELONGS_TO_GENERATION">
+  <data key="d12">BELONGS_TO_GENERATION</data>
+</edge>
+<edge source="p_1" target="event::rothschild::e_napoleonic_wars" id="CONTEXTUALIZED_BY">
+  <data key="d12">CONTEXTUALIZED_BY</data>
+</edge>
+<edge source="p_1" target="event::rothschild::e_congress_vienna" id="CONTEXTUALIZED_BY">
+  <data key="d12">CONTEXTUALIZED_BY</data>
+</edge>
+<edge source="p_1" target="dyn::rothschild" id="MEMBER_OF">
+  <data key="d12">MEMBER_OF</data>
+</edge>
+<edge source="p_2" target="place::Vienna" id="EMBEDDED_IN">
+  <data key="d12">EMBEDDED_IN</data>
+</edge>
+<edge source="p_2" target="inst::House of Rothschild (Vienna branch)" id="AFFILIATED_WITH">
+  <data key="d12">AFFILIATED_WITH</data>
+</edge>
+<edge source="p_2" target="dom::Finance" id="ACTIVE_IN">
+  <data key="d12">ACTIVE_IN</data>
+</edge>
+<edge source="p_2" target="gen::rothschild::2" id="BELONGS_TO_GENERATION">
+  <data key="d12">BELONGS_TO_GENERATION</data>
+</edge>
+<edge source="p_2" target="event::rothschild::e_napoleonic_wars" id="CONTEXTUALIZED_BY">
+  <data key="d12">CONTEXTUALIZED_BY</data>
+</edge>
+<edge source="p_2" target="event::rothschild::e_congress_vienna" id="CONTEXTUALIZED_BY">
+  <data key="d12">CONTEXTUALIZED_BY</data>
+</edge>
+<edge source="p_2" target="dyn::rothschild" id="MEMBER_OF">
+  <data key="d12">MEMBER_OF</data>
+</edge>
+<edge source="p_3" target="place::London" id="EMBEDDED_IN">
+  <data key="d12">EMBEDDED_IN</data>
+</edge>
+<edge source="p_3" target="inst::House of Rothschild (London branch)" id="AFFILIATED_WITH">
+  <data key="d12">AFFILIATED_WITH</data>
+</edge>
+<edge source="p_3" target="dom::Finance" id="ACTIVE_IN">
+  <data key="d12">ACTIVE_IN</data>
+</edge>
+<edge source="p_3" target="gen::rothschild::2" id="BELONGS_TO_GENERATION">
+  <data key="d12">BELONGS_TO_GENERATION</data>
+</edge>
+<edge source="p_3" target="event::rothschild::e_napoleonic_wars" id="CONTEXTUALIZED_BY">
+  <data key="d12">CONTEXTUALIZED_BY</data>
+</edge>
+<edge source="p_3" target="dyn::rothschild" id="MEMBER_OF">
+  <data key="d12">MEMBER_OF</data>
+</edge>
+<edge source="p_4" target="place::Naples" id="EMBEDDED_IN">
+  <data key="d12">EMBEDDED_IN</data>
+</edge>
+<edge source="p_4" target="inst::House of Rothschild (Naples branch)" id="AFFILIATED_WITH">
+  <data key="d12">AFFILIATED_WITH</data>
+</edge>
+<edge source="p_4" target="dom::Finance" id="ACTIVE_IN">
+  <data key="d12">ACTIVE_IN</data>
+</edge>
+<edge source="p_4" target="gen::rothschild::2" id="BELONGS_TO_GENERATION">
+  <data key="d12">BELONGS_TO_GENERATION</data>
+</edge>
+<edge source="p_4" target="event::rothschild::e_napoleonic_wars" id="CONTEXTUALIZED_BY">
+  <data key="d12">CONTEXTUALIZED_BY</data>
+</edge>
+<edge source="p_4" target="dyn::rothschild" id="MEMBER_OF">
+  <data key="d12">MEMBER_OF</data>
+</edge>
+<edge source="p_5" target="place::Paris" id="EMBEDDED_IN">
+  <data key="d12">EMBEDDED_IN</data>
+</edge>
+<edge source="p_5" target="inst::House of Rothschild (Paris branch)" id="AFFILIATED_WITH">
+  <data key="d12">AFFILIATED_WITH</data>
+</edge>
+<edge source="p_5" target="dom::Finance" id="ACTIVE_IN">
+  <data key="d12">ACTIVE_IN</data>
+</edge>
+<edge source="p_5" target="gen::rothschild::2" id="BELONGS_TO_GENERATION">
+  <data key="d12">BELONGS_TO_GENERATION</data>
+</edge>
+<edge source="p_5" target="event::rothschild::e_napoleonic_wars" id="CONTEXTUALIZED_BY">
+  <data key="d12">CONTEXTUALIZED_BY</data>
+</edge>
+<edge source="p_5" target="dyn::rothschild" id="MEMBER_OF">
+  <data key="d12">MEMBER_OF</data>
+</edge>
+<edge source="g_arthur" target="place::Dublin" id="EMBEDDED_IN">
+  <data key="d12">EMBEDDED_IN</data>
+</edge>
+<edge source="g_arthur" target="inst::Guinness Brewery" id="AFFILIATED_WITH">
+  <data key="d12">AFFILIATED_WITH</data>
+</edge>
+<edge source="g_arthur" target="dom::Brewing" id="ACTIVE_IN">
+  <data key="d12">ACTIVE_IN</data>
+</edge>
+<edge source="g_arthur" target="gen::guinness::1" id="BELONGS_TO_GENERATION">
+  <data key="d12">BELONGS_TO_GENERATION</data>
+</edge>
+<edge source="g_arthur" target="event::guinness::e_industrial_rev" id="CONTEXTUALIZED_BY">
+  <data key="d12">CONTEXTUALIZED_BY</data>
+</edge>
+<edge source="g_arthur" target="dyn::guinness" id="MEMBER_OF">
+  <data key="d12">MEMBER_OF</data>
+</edge>
+<edge source="g_arthur" target="g_2" id="PARENT_OF">
+  <data key="d12">PARENT_OF</data>
+</edge>
+<edge source="g_2" target="place::Dublin" id="EMBEDDED_IN">
+  <data key="d12">EMBEDDED_IN</data>
+</edge>
+<edge source="g_2" target="place::London" id="EMBEDDED_IN">
+  <data key="d12">EMBEDDED_IN</data>
+</edge>
+<edge source="g_2" target="inst::Guinness Brewery" id="AFFILIATED_WITH">
+  <data key="d12">AFFILIATED_WITH</data>
+</edge>
+<edge source="g_2" target="dom::Brewing" id="ACTIVE_IN">
+  <data key="d12">ACTIVE_IN</data>
+</edge>
+<edge source="g_2" target="dom::Politics" id="ACTIVE_IN">
+  <data key="d12">ACTIVE_IN</data>
+</edge>
+<edge source="g_2" target="dom::Philanthropy" id="ACTIVE_IN">
+  <data key="d12">ACTIVE_IN</data>
+</edge>
+<edge source="g_2" target="gen::guinness::2" id="BELONGS_TO_GENERATION">
+  <data key="d12">BELONGS_TO_GENERATION</data>
+</edge>
+<edge source="g_2" target="event::guinness::e_industrial_rev" id="CONTEXTUALIZED_BY">
+  <data key="d12">CONTEXTUALIZED_BY</data>
+</edge>
+<edge source="g_2" target="dyn::guinness" id="MEMBER_OF">
+  <data key="d12">MEMBER_OF</data>
+</edge>
+</graph></graphml>
